@@ -22,5 +22,6 @@ jobs:
           git add --all
           git commit -am "Update website"
           git push --force origin website
+          tree bin
       
           
