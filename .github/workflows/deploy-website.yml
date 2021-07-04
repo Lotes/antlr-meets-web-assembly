@@ -18,8 +18,8 @@ jobs:
           git config user.email "no-reply@lotes-lab.de"
           git checkout -b website
           mv bin/Debug/net5.0/wwwroot/* ../*
+          mv wwwroot/* ../*
           git add --all
-          git mv wwwroot/* ../*
           git commit -am "Update website"
           git push --force origin website
       
