@@ -17,10 +17,8 @@ jobs:
           git config user.name "Website Bot"
           git config user.email "no-reply@lotes-lab.de"
           git checkout -b website
-          git rm -r .. !wwwroot
           git add bin/Debug/net5.0/wwwroot
           git mv bin/Debug/net5.0/wwwroot/* ../*
-          git add wwwroot
           git mv wwwroot/* ../*
           git commit -am "Update website"
           git push --force origin website
