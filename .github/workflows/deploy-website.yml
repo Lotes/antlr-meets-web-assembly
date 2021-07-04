@@ -13,6 +13,6 @@ jobs:
       - name: Run a multi-line script
         run: |
           cd Calculator
-          dotnet run
+          dotnet build
           ls bin
           tree
