@@ -20,6 +20,8 @@ jobs:
           git rm -r ..
           git add bin/Debug/net5.0/wwwroot
           git mv bin/Debug/net5.0/wwwroot/* ../*
+          git add wwwroot
+          git mv wwwroot/* ../*
           git commit -am "Update website"
           git push --force origin website
       
