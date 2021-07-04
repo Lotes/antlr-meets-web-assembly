@@ -19,7 +19,7 @@ jobs:
           git checkout -b website
           git rm -r ..
           git add bin/Debug/net5.0/wwwroot
-          Git mv bin/Debug/net5.0/wwwroot ../*
+          git mv bin/Debug/net5.0/wwwroot ../*
           git commit -am "Update website"
           git push --force origin website
       
