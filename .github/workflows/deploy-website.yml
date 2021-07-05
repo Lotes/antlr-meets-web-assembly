@@ -21,6 +21,7 @@ jobs:
           mv ../wwwroot/* ..
           mv wwwroot/* ..
           git add --all
+          git rm -r UnitTests Calculator .vs .github AntlrMeetsWebAssembly.sln
           git commit -am "Update website"
           git push --force origin website
       
