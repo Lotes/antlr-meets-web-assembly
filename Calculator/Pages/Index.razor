@@ -3,13 +3,13 @@
 
 <h1>Calculator</h1>
 
-Formula:<br/>
+<form class="input" @onsubmit="Calculate">
+    <input type="text" @bind="@input" tabindex="0" autofocus/>
+    <button @onclick="Calculate">=</button>
+</form> 
 
-<textarea name="formula" @bind="@input"></textarea><br />
+<h2>&gt; @result</h2>
 
-Result: @result<br />
-
-<button class="btn btn-primary" @onclick="Calculate">Click me</button>
 
 @code {
     private string input;

@@ -1,6 +1,8 @@
 /**/bin
 /**/obj
 /**/packages
+.vs
 *.user
 *.suo
 *.dtbcache.v2
+/.vs/AntlrMeetsWebAssembly/config/debuggerConfiguration-eb1e8fb6-51c3-41fc-840b-4f30c3b6a550.json

@@ -5,9 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Language\Calculator.antlr4" />
+    <None Include="wwwroot\styles.css" />
   </ItemGroup>
-
 
   <ItemGroup>
     <PackageReference Include="Antlr4.Runtime.Standard" Version="4.7.2" />
